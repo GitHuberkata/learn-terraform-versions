@@ -1,17 +1,14 @@
 terraform {
   required_providers {
     aws = {
-      version = "~> 2.13.0"
+      version = "~> 4.0"
     }
     random = {
-      version = ">= 0.13.0"
+      version = ">= 2.1.2"
     }
   }
 
-  required_version = ">= 2.1.2"
-}
-}
-required_version = "~> 0.13.1"
+  required_version = "~> 0.13.0"
 }
 
 provider "aws" {
